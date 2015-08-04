@@ -1,9 +1,9 @@
 {
-  "name": "fis",
+  "name": "fis-xxx",
   "description": "front-end integrated solution.",
-  "version": "1.9.21",
-  "author": "FIS Team <fis@baidu.com>",
-  "homepage": "http://fis.baidu.com/",
+  "version": "1.9.22",
+  "author" : "wangyi",
+  "homepage": "https://github.com/puppywang/fis",
   "keywords": [
     "fis"
   ],
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fis-dev/fis.git"
+    "url": "https://github.com/puppywang/fis.git"
   },
   "preferGlobal": true,
   "dependencies": {
@@ -31,7 +31,7 @@
     "fis-command-release": "0.11.6",
     "fis-command-server": "0.7.5",
     "fis-deploy-default": "0.0.6",
-    "fis-kernel": "2.0.12",
+    "fis-kernel-dj": "2.0.16",
     "fis-preprocessor-components": "1.0.19",
     "fis-optimizer-clean-css": "0.0.9",
     "fis-optimizer-png-compressor": "0.1.0",

@@ -9,7 +9,7 @@
 	url = https://github.com/fex-team/fis-command-server
 [submodule "node_modules/fis-kernel"]
 	path = node_modules/fis-kernel
-	url = https://github.com/fex-team/fis-kernel
+	url = https://github.com/puppywang/fis-kernel
 [submodule "node_modules/fis-optimizer-clean-css"]
 	path = node_modules/fis-optimizer-clean-css
 	url = https://github.com/fex-team/fis-optimizer-clean-css
