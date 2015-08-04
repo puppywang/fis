@@ -6,7 +6,7 @@
 'use strict';
 
 //kernel
-var fis = module.exports = require('fis-kernel');
+var fis = module.exports = require('fis-kernel-dj');
 
 //merge standard conf
 fis.config.merge({
