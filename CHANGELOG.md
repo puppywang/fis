@@ -1,11 +1,50 @@
+## 1.9.31 / Wed Jul 29 2015
 
-## 1.9.21 / Wed May 13 2015 
+- 升级 fis-optimizer-uglify-js, 优化 sourcemap
+
+## 1.9.30 / Wed Jul 22 2015
+
+- 升级 fis-command-install 通过镜像下载 fis-components。
+
+## 1.9.29 / Wed Jul 08 2015
+
+> 升级 fis-command-install，解决 component.json 可能被替换成 0 的问题。
+
+## 1.9.28 / Mon Jun 15 2015 
+
+> 升级 fis-command-release 解决 watch 时文件夹被删的 bug.
+
+## 1.9.27 / Thu Jun 11 2015 
+
+> 升级 fis-kernel 至 v2.0.17 <br>
+> 升级 fis-commond-release 至 v0.12.1
+
+- 修复 Bug [#530](https://github.com/fex-team/fis/issues/530)
+    - 缓存 File 对象导致的 watch 两次相互影响的问题
+
+## 1.9.26 / Mon Jun 08 2015
+
+> 升级 fis-command-release 至 v0.12.0 <br>
+> 升级 fis-kernel 至 v2.0.16
+
+- 修复 Bug #455
+- 修复 Bug #527
+- project.exclude & project.include 过滤条件也在 watch 时能正常工作
+- 固定 fis-command-install 的版本号
+- 支持 img `srcset`
+
+
+## 1.9.24 / Tue May 26 2015
+
+> 升级 fis-kenerl 至 v2.0.15
+
+## 1.9.21 / Wed May 13 2015
 
 > 升级 fis-command-server至v0.7.5
 
 - 本地调试支持https服务器
 
-## 1.9.20 / Wed May 13 2015 
+## 1.9.20 / Wed May 13 2015
 
 > 升级 fis-postprocessor-jswrapper至v0.0.12
 
@@ -19,9 +58,9 @@
 
 - 禁止 png 图片压缩时 `libpng` warning 信息输出 (非 Windows 环境)
 - 提升 Linux x64 上的图片压缩的稳定性，提升 csssprites 的稳定性
-- 提供 Linux / Unix 系统下手动编译依赖图形工具的[教程]()及其[编译脚本](https://github.com/xiangshouding/some-scripts/blob/master/install-fis-image-deps.sh)，以防某些系统由于 glibc 版本过低导致已提供二进制扩展无法加载时方便修复； 
+- 提供 Linux / Unix 系统下手动编译依赖图形工具的[教程]()及其[编译脚本](https://github.com/xiangshouding/some-scripts/blob/master/install-fis-image-deps.sh)，以防某些系统由于 glibc 版本过低导致已提供二进制扩展无法加载时方便修复；
 
-## 1.9.18 / Wed May 06 2015 
+## 1.9.18 / Wed May 06 2015
 
 > 升级 fis-command-server至v1.7.4
 
